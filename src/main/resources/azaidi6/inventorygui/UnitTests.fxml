@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.6-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="azaidi6.inventorygui.controllers.UnitTestsController">
+   <children>
+      <VBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button fx:id="unitTest1" mnemonicParsing="false" text="Unit Test 1" onMouseClicked="#onUnitTest1" VBox.vgrow="NEVER">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="unitTest2" mnemonicParsing="false" text="Unit Test 2" onMouseClicked="#onUnitTest2" VBox.vgrow="NEVER">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </VBox>
+            <TextArea fx:id="infoArea" editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </TextArea>
+            <Button fx:id="closeButton" alignment="CENTER" mnemonicParsing="false" onMouseClicked="#onCloseButtonClicked" text="Close" VBox.vgrow="NEVER">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
