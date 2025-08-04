@@ -1,0 +1,6 @@
+module:azaidi6.inventorygui
+azaidi6.inventorygui
+azaidi6.inventorygui.controllers
+azaidi6.inventorygui.dao
+azaidi6.inventorygui.helper
+azaidi6.inventorygui.model
